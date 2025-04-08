@@ -8,11 +8,11 @@ import { usePathname } from 'next/navigation';
 
 const navItems = [
   { id: 1, label: 'Home', href: '/' },
-  { id: 2, label: 'About Us', href: '/about' },
-  { id: 3, label: 'AI Services', href: '/services' },
-  { id: 4, label: 'AI Insights', href: '/insights' },
-  { id: 5, label: 'AI Portfolio', href: '/portfolio' },
-  { id: 6, label: 'Contact Us', href: '/contact' },
+  { id: 2, label: 'About Us', href: '/about-us' },
+  { id: 3, label: 'AI Services', href: '/ai-services' },
+  { id: 4, label: 'AI Insights', href: '/ai-insights' },
+  { id: 5, label: 'AI Portfolio', href: '/ai-portfolio' },
+  { id: 6, label: 'Contact Us', href: '/contact-us' },
 ];
 
 export default function Header() {
