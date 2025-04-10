@@ -8,7 +8,7 @@ export default function Header() {
       <nav className="navbar navbar-expand-lg">
         <div className="container">
           <Link className="navbar-brand" href="/">
-            <Image src="/logo.png" alt="Social Vision Logo" width={32} height={32} />
+            <Image src="/images/logo.svg" alt="Social Vision Logo" width={98} height={102} />
           </Link>
           <button
             className="navbar-toggler"
