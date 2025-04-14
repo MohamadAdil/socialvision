@@ -543,6 +543,56 @@ form input:focus {
   padding-bottom: 40px;
 }
 
+.OurTestimonials .reviews-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 50px;
+}
+
+.OurTestimonials .ra-star {
+  justify-content: start;
+}
+
+.OurTestimonials .reviews {
+  font-family: var(--font-family-p2);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0%;
+  color: #787878;
+
+}
+
+.OurTestimonials .rating-value {
+  font-family: var(--font-family-p2);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0%;
+  color: var(--black);
+
+
+}
+
+.OurTestimonials .reviews-wrap .avatars img {
+  object-fit: cover;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.OurTestimonials .reviews-wrap .avatars img:nth-child(2) {
+  margin-left: -20px
+}
+
+.OurTestimonials .reviews-wrap .avatars img:nth-child(3) {
+  margin-left: -20px
+}
+
+.OurTestimonials .reviews-wrap .avatars img:nth-child(4) {
+  margin-left: -20px
+}
+
 .swiper-pagination {
   display: flex;
   justify-content: center;
