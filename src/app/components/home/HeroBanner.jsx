@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import BrandSlider from "./BrandSlider";
+import { GiRoundStar } from "react-icons/gi";
 
 export default function HeroBanner() {
   return (
@@ -13,6 +14,16 @@ export default function HeroBanner() {
           <div className="button-wrap">
             <Link href="#" className="btn-main">Book Your Free AI Audit</Link>
           </div>
+        </div>
+        <div className="review-wrap">
+          <div className="ra-star">
+            <GiRoundStar size={20} />
+            <GiRoundStar size={20} />
+            <GiRoundStar size={20} />
+            <GiRoundStar size={20} />
+            <GiRoundStar size={20} />
+          </div>
+          <p>4.9/5 From 3,602 Customers</p>
         </div>
         <BrandSlider />
       </div>
