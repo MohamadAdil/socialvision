@@ -6,7 +6,7 @@ import { GiRoundStar } from "react-icons/gi";
 
 export default function HeroBanner() {
   return (
-    <section className="HeroBanner" style={{ backgroundImage: 'url(/images/HeroBanner.png)' }}>
+    <section className="HeroBanner" style={{ backgroundImage: 'url(/images/herobanner.png)' }}>
       <div className="container">
         <div className="heading-wrap">
           <h1>Supercharge Your Brand with AI-Driven Marketing</h1>
