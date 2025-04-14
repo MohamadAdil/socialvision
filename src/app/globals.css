@@ -132,6 +132,20 @@ ol {
   color: var(--black);
 }
 
+.site-header .navbar .dropdown-menu {
+  padding: 0 !important;
+  border-radius: 15px !important;
+  overflow: hidden;
+}
+
+.site-header .navbar-nav ul.dropdown-menu li a {
+  color: #000 !important;
+  border-radius: 0;
+  padding: 10px 15px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+  color: var(--white);
+}
 /*  */
 .HeroBanner {
   background-position: center;
