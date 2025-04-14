@@ -1,48 +1,83 @@
-// components/layout/Header.jsx
-import Link from 'next/link';
-import Image from 'next/image';
-import { FaBars } from "react-icons/fa";
+'use client'
+
+import Link from 'next/link'
+import Image from 'next/image'
+
 export default function Header() {
   return (
-    <header>
-      <nav className="navbar navbar-expand-lg">
+    <header className="site-header">
+      <nav className="navbar navbar-expand-lg" aria-label="Fifth navbar example">
         <div className="container">
-          <Link className="navbar-brand" href="/">
-            <Image src="/images/logo.svg" alt="Social Vision Logo" width={98} height={102} />
+          <Link href="/" className="navbar-brand">
+            <Image
+              src="/images/logo.svg"
+              alt="Social Vision logo"
+              width={99}
+              height={102}
+              priority
+              className="object-fit-contain"
+            />
           </Link>
           <button
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#mainNav"
-            aria-controls="mainNav"
+            data-bs-target="#navbarsExample05"
+            aria-controls="navbarsExample05"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <FaBars />
+            <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div className="collapse navbar-collapse" id="mainNav">
-            <ul className="navbar-nav ms-auto">
+          <div className="collapse navbar-collapse" id="navbarsExample05">
+            <ul className="navbar-nav mx-auto">
               <li className="nav-item">
-                <Link className="nav-link" href="/">Home</Link>
+                <Link href="/" className="nav-link active" aria-current="page">
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item dropdown">
+                <Link
+                  className="nav-link dropdown-toggle"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Our Services
+                </Link>
+                <ul className="dropdown-menu">
+                  <li>
+                    <Link href="#" className="dropdown-item">
+                      Digital Marketing
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#" className="dropdown-item">
+                      AI-Driven Services
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#" className="dropdown-item">
+                      Branding & Identity
+                    </Link>
+                  </li>
+                </ul>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="/services">Services</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" href="/ai-insights">AI Tech & Insights</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" href="/contact">Contact</Link>
+                <Link href="#" className="nav-link">
+                  AI Tech & Insights
+                </Link>
               </li>
             </ul>
-            <Link href="/contact" className="">
-              Book Strategy Call
-            </Link>
+            <div className="btn-wrap">
+              <Link href="#" className="btn-main">
+                Contact Us
+              </Link>
+            </div>
           </div>
         </div>
       </nav>
     </header>
-  );
+  )
 }

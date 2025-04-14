@@ -1,12 +1,10 @@
-import Footer from "./components/layout/Footer";
-import Header from "./components/layout/Header";
+import HeroBanner from "./components/home/HeroBanner";
 
 
 export default function Home() {
   return (
     <div>
-      <Header />
-      <Footer />
+      <HeroBanner />
     </div>
   );
 }
