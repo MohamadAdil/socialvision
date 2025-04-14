@@ -259,8 +259,194 @@ form input {
   border-radius: 6px;
   padding: 20px !important;
 }
-form input:focus{
+
+form input:focus {
   outline: none !important;
   border: none !important;
   box-shadow: none !important;
+}
+
+/*  */
+.OurIndustries {
+  padding: 80px 0;
+}
+
+.OurIndustries .heading-wrap {
+  text-align: center;
+}
+
+.OurIndustries .hd-border-line {
+  font: 500 16px/1.2 var(--font-family-p2);
+  color: var(--black);
+  position: relative;
+  padding-bottom: 13px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.OurIndustries .hd-border-line::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary-clr);
+  width: 100%;
+  height: 5px;
+}
+
+.hd-border-line.center {
+  text-align: center;
+}
+
+.hd-border-line.start {
+  text-align: start;
+}
+
+.OurIndustries h2 {
+  font: 600 48px/1.2 var(--font-family-p1);
+  color: var(--black);
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 60px;
+}
+
+.industries-card-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.industries-card-item h4 {
+  font-family: var(--font-family-p2);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #000;
+}
+
+.industries-card-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: var(--primary-linear);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.industries-card-img::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: transparent;
+  border: 2px solid #CCCCCC;
+  width: 90px;
+  height: 90px;
+}
+
+/*  */
+.WhyUs {
+  padding: 217px 0 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.WhyUs .heading-wrap {
+  max-width: 670px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.WhyUs .heading-wrap h2 {
+  font: 700 42px/1.2 var(--font-family-p1);
+  margin: 0 0 16px;
+  color: var(--white);
+  text-align: center;
+}
+
+.WhyUs .heading-wrap p {
+  font: 500 16px/1.6 var(--font-family-p2);
+  margin: 0;
+  color: var(--white);
+  text-align: center;
+}
+
+.hd-box {
+  display: inline-block;
+  padding: 11px 14px;
+  border-radius: 100px;
+  background: #000;
+  font: 500 14px/1.2 var(--font-family-p1);
+  color: var(--white);
+}
+
+.whyus-btm-card {
+  background: #1B1B1B;
+  border: 1px solid #535353;
+  padding: 18px 24px;
+  font: 400 18px/1.2 var(--font-family-p2);
+  color: var(--white);
+  border-radius: 70px;
+  max-width: 852px;
+  margin: 0 auto;
+}
+
+.whyus-btm-card a {
+  background: linear-gradient(90deg, #C57B13 0%, #FFE74B 100%);
+  -webkit-background-clip: text;
+  font-weight: 600;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+/*  */
+.whyus-card {
+  margin: 0 0 50px;
+}
+
+.whyus-card-item {
+  border-radius: 16px;
+  background: #0F0F0F;
+  padding: 44px 30px 30px;
+  height: 100%;
+  position: relative;
+}
+
+.whyus-card-img {
+  position: absolute;
+  top: -20px;
+  left: 30px;
+}
+
+.whyus-card-item h4 {
+  font-family: var(--font-family-p1);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: var(--white);
+  margin: 0 0 12px;
+}
+
+.whyus-card-item p {
+  font-family: var(--font-family-p2);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0%;
+  color: #A7ADBE;
+
 }
