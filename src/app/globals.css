@@ -275,7 +275,7 @@ form input:focus {
   text-align: center;
 }
 
-.OurIndustries .hd-border-line {
+.hd-border-line {
   font: 500 16px/1.2 var(--font-family-p2);
   color: var(--black);
   position: relative;
@@ -284,7 +284,7 @@ form input:focus {
   display: inline-block;
 }
 
-.OurIndustries .hd-border-line::after {
+.hd-border-line::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -449,4 +449,237 @@ form input:focus {
   letter-spacing: 0%;
   color: #A7ADBE;
 
+}
+
+/*  */
+.GrowTogether {
+  padding: 80px 0;
+}
+
+.GrowTogether-wrap {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 109px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.GrowTogether-wrap h2 {
+  font: 700 42px/1.2 var(--font-family-p1);
+  text-align: center;
+  color: var(--white);
+  margin: 0 0 16px;
+}
+
+.GrowTogether-wrap p {
+  font: 500 16px/1.6 var(--font-family-p2);
+  text-align: center;
+  color: var(--white);
+  margin: 0 0 24px;
+}
+
+/* OurTestimonials */
+.OurTestimonials {
+  padding: 100px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.OurTestimonials h2 {
+  font: 600 48px/1.2 var(--font-family-p1);
+  text-align: start;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  margin: 0 0 30px;
+}
+
+.Testimonials-card {
+  background: var(--white);
+  border: 1px solid #E0E6F7;
+  border-radius: 16px;
+  padding: 26px;
+
+}
+
+.Testimonials-card .user {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin: 0 0 14px;
+}
+
+.Testimonials-card .user .user-img {
+  flex: none;
+  width: 81px;
+  height: 81px;
+}
+
+.Testimonials-card .user .user-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.Testimonials-card h6 {
+  font: 600 16px/1 var(--font-family-p2);
+  vertical-align: middle;
+  letter-spacing: 0;
+  margin: 0 0 8px;
+}
+
+.Testimonials-card p {
+  font: 400 14px/1.6 var(--font-family-p2);
+  letter-spacing: 0;
+  color: #666;
+}
+
+.Testimonials-card .ra-star {
+  justify-content: start;
+  margin: 0;
+}
+
+.TestimonialsSlider .swiper-wrapper {
+  padding-bottom: 40px;
+}
+
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.swiper-pagination-bullet {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #CCCCCC;
+
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #2B2B2B;
+  width: 24px;
+  border-radius: 7px;
+}
+
+/*  */
+.upper-ft {
+  padding: 50px 0;
+  background: var(--black);
+}
+
+.upper-ft .site-logo {
+  padding: 0 0 30px;
+  margin: 0 0 30px;
+  border-bottom: 1px solid #B7B7B7;
+}
+
+.upper-ft .cn-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.upper-ft h5 {
+  font: 600 20px/1.2 var(--font-family-p2);
+  text-transform: capitalize;
+  margin-bottom: 24px;
+  color: var(--white);
+}
+
+.upper-ft p {
+  font: 400 14px/1.6 var(--font-family-p2);
+  margin-bottom: 24px;
+  color: var(--white);
+}
+
+.upper-ft ul li {
+  margin-bottom: 24px;
+}
+
+.upper-ft ul li a {
+  font: 400 14px/1.6 var(--font-family-p2);
+  margin-bottom: 24px;
+  color: var(--white);
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-icon a {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  background: #FFAC33A8;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 30px;
+}
+
+.contact-icon {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  background: #FFAC33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icon svg {
+  fill: #fff;
+}
+
+.contact-item h6 {
+  font: 400 16px/1.2 var(--font-family-p2);
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  color: var(--white);
+}
+
+.contact-item a {
+  font: 400 16px/1.2 var(--font-family-p2);
+  text-transform: capitalize;
+  color: var(--white);
+}
+
+.footer-description {
+  max-width: 625px;
+}
+
+.quick-links {
+  max-width: 200px;
+}
+
+.contact-us {
+  max-width: 273px;
+}
+
+/*  */
+.bottom-ft {
+  padding: 30px 0;
+  background: #111111;
+}
+
+.bottom-ft p {
+  font: 400 16px/1.2 var(--font-family-p2);
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  color: var(--white);
 }
