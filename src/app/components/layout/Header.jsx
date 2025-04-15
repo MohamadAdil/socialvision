@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import { RiMenu3Fill } from "react-icons/ri";
 
 export default function Header() {
   return (
@@ -33,7 +34,7 @@ export default function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+        <RiMenu3Fill size={30} />
           </button>
 
           <div className="collapse navbar-collapse" id="navbarsExample05">

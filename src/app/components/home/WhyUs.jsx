@@ -50,7 +50,7 @@ const WhyUs = () => {
               },
             ].map((item, index) => (
               <motion.div
-                className="col-lg-4"
+                className="col-md-4 mb-md-0 mb-5"
                 key={index}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}

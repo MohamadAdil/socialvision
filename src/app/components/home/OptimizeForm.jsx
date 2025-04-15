@@ -17,7 +17,7 @@ const OptimizeForm = () => {
     >
       <form onSubmit={handleSubmit}>
         <div className="row">
-          <div className="col-lg-12 mb-3">
+          <div className="col-md-12  mb-3">
             <label htmlFor="brandName" className="form-label">Brand Name</label>
             <input
               type="text"
@@ -27,7 +27,7 @@ const OptimizeForm = () => {
               required
             />
           </div>
-          <div className="col-lg-6 mb-3">
+          <div className="col-md-6 col-sm-12 mb-3">
             <label htmlFor="instagram" className="form-label">Instagram Link</label>
             <input
               type="url"
@@ -36,7 +36,7 @@ const OptimizeForm = () => {
               placeholder="Enter Instagram Link"
             />
           </div>
-          <div className="col-lg-6 mb-3">
+          <div className="col-md-6 col-sm-12 mb-3">
             <label htmlFor="facebook" className="form-label">Facebook</label>
             <input
               type="url"
@@ -45,7 +45,7 @@ const OptimizeForm = () => {
               placeholder="Enter Facebook Link"
             />
           </div>
-          <div className="col-lg-6 mb-3">
+          <div className="col-md-6 col-sm-12 mb-3">
             <label htmlFor="website" className="form-label">Website Link</label>
             <input
               type="url"
@@ -54,7 +54,7 @@ const OptimizeForm = () => {
               placeholder="Enter Website Link"
             />
           </div>
-          <div className="col-lg-6 mb-4">
+          <div className="col-md-6 col-sm-12 mb-4">
             <label htmlFor="email" className="form-label">Email</label>
             <input
               type="email"
@@ -64,7 +64,7 @@ const OptimizeForm = () => {
               required
             />
           </div>
-          <div className="col-lg-12 text-center">
+          <div className="col-md-12 col-sm-12 text-center">
             <button type="submit" className="btn-main">
               Get My Free Report
             </button>

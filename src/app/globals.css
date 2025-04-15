@@ -143,9 +143,12 @@ ol {
   border-radius: 0;
   padding: 10px 15px;
 }
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
   color: var(--white);
 }
+
 /*  */
 .HeroBanner {
   background-position: center;
@@ -340,6 +343,7 @@ form input:focus {
   letter-spacing: 0%;
   vertical-align: middle;
   color: #000;
+  text-align: center;
 }
 
 .industries-card-img {
@@ -646,6 +650,7 @@ form input:focus {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 30px;
 }
 
 .upper-ft h5 {

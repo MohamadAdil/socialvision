@@ -48,7 +48,7 @@ const OurIndustries = () => {
           <div className="row">
             {industries.map((item, index) => (
               <motion.div
-                className="col-lg-3"
+                className="col-md-3 col-6 mb-md-0 mb-5"
                 key={index}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
