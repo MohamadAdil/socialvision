@@ -1,76 +1,78 @@
-// components/OurIndustries.jsx
+'use client';
+
 import React from 'react';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
+
 const OurIndustries = () => {
+  const industries = [
+    {
+      title: 'Restaurants / Hospitality',
+      img: '/images/industries-img/img-1.png',
+    },
+    {
+      title: 'Retail',
+      img: '/images/industries-img/img-2.png',
+    },
+    {
+      title: 'Local Service Businesses',
+      img: '/images/industries-img/img-3.png',
+    },
+    {
+      title: 'Events & Wellness',
+      img: '/images/industries-img/img-4.png',
+    },
+  ];
+
   return (
-    <section className="OurIndustries">
+    <motion.section
+      className="OurIndustries"
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8, ease: 'easeOut' }}
+      viewport={{ once: true, amount: 0.2 }}
+    >
       <div className="container">
-        <div className="heading-wrap">
+        <motion.div
+          className="heading-wrap"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+        >
           <span className="hd-border-line center">Our Industries</span>
           <h2>Industries We Serve</h2>
-        </div>
+        </motion.div>
+
         <div className="industries-card-wrap">
           <div className="row">
-            <div className="col-lg-3">
-              <div className="industries-card-item">
-                <div className="industries-card-img">
-                  <Image
-                    src="/images/industries-img/img-1.png"
-                    width={34}
-                    height={34}
-                    alt="Industry Icon"
-                    className="object-fit-contain"
-                  />
+            {industries.map((item, index) => (
+              <motion.div
+                className="col-lg-3"
+                key={index}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: index * 0.2 }}
+                viewport={{ once: true }}
+              >
+                <div className="industries-card-item">
+                  <div className="industries-card-img">
+                    <Image
+                      src={item.img}
+                      width={34}
+                      height={34}
+                      alt={item.title}
+                      className="object-fit-contain"
+                    />
+                  </div>
+                  <h4>{item.title}</h4>
                 </div>
-                <h4>Restaurants / Hospitality</h4>
-              </div>
-            </div>
-            <div className="col-lg-3">
-              <div className="industries-card-item">
-                <div className="industries-card-img">
-                  <Image
-                    src="/images/industries-img/img-2.png"
-                    width={34}
-                    height={34}
-                    alt="Industry Icon"
-                    className="object-fit-contain"
-                  />
-                </div>
-                <h4>Retail</h4>
-              </div>
-            </div>
-            <div className="col-lg-3">
-              <div className="industries-card-item">
-                <div className="industries-card-img">
-                  <Image
-                    src="/images/industries-img/img-3.png"
-                    width={34}
-                    height={34}
-                    alt="Industry Icon"
-                    className="object-fit-contain"
-                  />
-                </div>
-                <h4>Local Service Businesses</h4>
-              </div>
-            </div>
-            <div className="col-lg-3">
-              <div className="industries-card-item">
-                <div className="industries-card-img">
-                  <Image
-                    src="/images/industries-img/img-4.png"
-                    width={34}
-                    height={34}
-                    alt="Industry Icon"
-                    className="object-fit-contain"
-                  />
-                </div>
-                <h4>Events & Wellness</h4>
-              </div>
-            </div>
+              </motion.div>
+            ))}
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
