@@ -1,11 +1,17 @@
-'use client'
+'use client';
 
-import Link from 'next/link'
-import Image from 'next/image'
+import Link from 'next/link';
+import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 export default function Header() {
   return (
-    <header className="site-header">
+    <motion.header
+      className="site-header"
+      initial={{ opacity: 0, y: -50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+    >
       <nav className="navbar navbar-expand-lg" aria-label="Fifth navbar example">
         <div className="container">
           <Link href="/" className="navbar-brand">
@@ -78,6 +84,6 @@ export default function Header() {
           </div>
         </div>
       </nav>
-    </header>
-  )
+    </motion.header>
+  );
 }
