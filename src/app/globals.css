@@ -991,7 +991,7 @@ form textarea:focus {
   top: 12px;
   right: 12px;
   border-radius: 7px;
-  padding: 11;
+  padding: 11px;
   background: #ffffff80;
   border: 1.17px solid #ffffff33;
   backdrop-filter: blur(11.7px);
@@ -999,6 +999,10 @@ form textarea:focus {
   letter-spacing: 0;
   text-transform: capitalize;
   color: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
 }
 
 .ArticleCardCn span {
