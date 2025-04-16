@@ -163,7 +163,8 @@
   .OptimizeFormSc p,
   .WhyUs .heading-wrap p,
   .GrowTogether-wrap p,
-  .whyus-card-item p, .bottom-ft p {
+  .whyus-card-item p,
+  .bottom-ft p {
     font-size: 14px;
   }
 
@@ -184,7 +185,8 @@
     font-size: 12px;
   }
 
-  .industries-card-item h4,.upper-ft h5 {
+  .industries-card-item h4,
+  .upper-ft h5 {
     font-size: 16px;
   }
 
@@ -196,10 +198,12 @@
   .GrowTogether-wrap {
     padding: 40px 20px;
   }
-  .upper-ft ul li{
+
+  .upper-ft ul li {
     margin-bottom: 10px;
   }
-  .site-header .navbar-nav li a{
+
+  .site-header .navbar-nav li a {
     font-size: 14px;
   }
 }

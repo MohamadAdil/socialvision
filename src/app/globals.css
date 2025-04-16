@@ -283,6 +283,21 @@ form input:focus {
   box-shadow: none !important;
 }
 
+form textarea {
+  font: 500 14px/1.2 var(--font-family-p2);
+  color: var(--black);
+  background: #F6F7FA !important;
+  border: 1px solid #CBCBCB;
+  border-radius: 6px;
+  padding: 20px !important;
+}
+
+form textarea:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
 /*  */
 .OurIndustries {
   padding: 80px 0;
@@ -751,4 +766,229 @@ form input:focus {
   text-transform: capitalize;
   letter-spacing: 0;
   color: var(--white);
+}
+
+/*  */
+.InnerHero {
+  padding-top: 162px;
+}
+
+.InnerHero .row {
+  align-items: center;
+}
+
+.InnerHeroText h1 {
+  font-family: var(--font-family-p1);
+  font-weight: 600;
+  font-size: 58px;
+  line-height: 1.2;
+  letter-spacing: 0%;
+  text-align: start;
+  color: var(--white);
+  margin-bottom: 14px;
+}
+
+.InnerHeroText p {
+  font-family: var(--font-family-p2);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: var(--white);
+}
+
+.InnerHeroImg {
+  position: relative;
+  max-width: 500px;
+  margin-left: auto;
+}
+
+.InnerHeroImg::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-radius: 235px 235px 0 0;
+  position: absolute;
+  right: -4px;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, #a259ff, #3ee0ac);
+
+}
+
+.InnerHeroImg img {
+  border-radius: 235px 235px 0 0;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.FormSc {
+  padding: 80px 0;
+}
+
+.CnCardWrap .contact-card {
+  margin-bottom: 20px;
+}
+
+.CnCardWrap .contact-card:last-child {
+  margin-bottom: 0;
+}
+
+.contact-card {
+  border: 1px solid #E2E2E8;
+  box-shadow: 0px 3px 3px 0px #00000033;
+  background: #FFFFFF01;
+  border-radius: 20px;
+  padding: 35px 22px;
+}
+
+.CnCardImg {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  background: var(--primary-linear);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CnCardImg svg {
+  fill: var(--white);
+}
+
+.CnCardText {
+  display: flex;
+  flex-direction: column;
+  gap: 8;
+}
+
+.CnCardText span {
+  font-family: var(--font-family-p2);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: -0.85px;
+  text-align: start;
+  color: #28334D;
+
+}
+
+.CnCardText a {
+  font-family: var(--font-family-p2);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: -0.85px;
+  text-align: start;
+  color: #111111;
+}
+
+.ArticleSc {
+  padding: 80px 0;
+}
+
+.ArticleSc h2 {
+  font-family: var(--font-family-p1);
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 1.2;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: var(--black);
+  margin-bottom: 38px;
+}
+
+.ArticleCardImg {
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.ArticleCardImg img {
+  border-radius: 10px;
+  aspect-ratio: 404 / 217;
+  width: 100%;
+  height: auto;
+}
+
+.BadgeCs {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border-radius: 7px;
+  padding: 11;
+  background: #ffffff80;
+  border: 1.17px solid #ffffff33;
+  backdrop-filter: blur(11.7px);
+  font: 500 12px/1 var(--font-family-p2);
+  letter-spacing: 0;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.ArticleCardCn span {
+  font: 500 16px/1.2 var(--font-family-p2);
+  letter-spacing: 0;
+  text-transform: capitalize;
+  color: #a5a5a5;
+  margin: 0 0 10px;
+}
+
+.ArticleCardCn h4 {
+  font: 600 18px/1.2 var(--font-family-p2);
+  letter-spacing: 0;
+  color: #111111;
+  margin: 0 0 8px;
+}
+
+.ArticleCardCn p {
+  font: 400 14px/1.2 var(--font-family-p2);
+  letter-spacing: 0;
+  color: #666666;
+  margin: 0 0 12px;
+}
+
+.ArticleCardCn a {
+  font: 600 16px/16px var(--font-family-p2);
+  letter-spacing: 0;
+  text-align: center;
+  vertical-align: middle;
+  background: linear-gradient(180deg, #ffac33 0%, #ae6700 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.ArticleCardCn a svg {
+  margin-left: 8px;
+  fill: #ffb341;
+}
+
+.ReportCardWrap {
+  background: #FFFFFF;
+  border: 1px solid #7272722B;
+  border-radius: 20px;
+  padding: 30px 20px;
+}
+
+.ReportCardWrap h4 {
+  font-family: var(--font-family-p2);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  margin: 0 0 24px;
+}
+.ReportCardWrap .ArticleCard{
+  margin-bottom: 20px;
+}
+.ReportCardWrap .ArticleCard:last-child{
+  margin: 0;
+}
+
+.ReportCardWrap .ArticleCardCn span{
+display: none;
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import OptimizeForm from "./OptimizeForm";
+import OptimizeForm from "../common/forms/OptimizeForm";
 import { motion } from "framer-motion";
 
 const OptimizeFormSc = () => {

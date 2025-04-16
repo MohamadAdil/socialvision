@@ -45,7 +45,7 @@ export default function Footer() {
               <ul>
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/services">Our Services</Link></li>
-                <li><Link href="/ai-tech-insights">AI Tech & Insights</Link></li>
+                <li><Link href="/ai-insights">AI Tech & Insights</Link></li>
               </ul>
             </div>
             <div className="contact-us">

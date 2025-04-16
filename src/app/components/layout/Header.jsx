@@ -34,7 +34,7 @@ export default function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-        <RiMenu3Fill size={30} />
+            <RiMenu3Fill size={30} />
           </button>
 
           <div className="collapse navbar-collapse" id="navbarsExample05">
@@ -47,7 +47,7 @@ export default function Header() {
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  href="/services"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
@@ -72,13 +72,13 @@ export default function Header() {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link href="#" className="nav-link">
+                <Link href="/ai-insights" className="nav-link">
                   AI Tech & Insights
                 </Link>
               </li>
             </ul>
             <div className="btn-wrap">
-              <Link href="#" className="btn-main">
+              <Link href="/contact-us" className="btn-main">
                 Contact Us
               </Link>
             </div>
