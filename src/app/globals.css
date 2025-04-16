@@ -999,10 +999,6 @@ form textarea:focus {
   letter-spacing: 0;
   text-transform: capitalize;
   color: #ffffff;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
-  overflow: hidden;
 }
 
 .ArticleCardCn span {
