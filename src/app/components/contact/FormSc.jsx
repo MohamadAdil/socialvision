@@ -13,7 +13,7 @@ const FormSc = () => {
     <div className="FormSc">
       <div className="container">
         <div className="row">
-          <div className="col-lg-5">
+          <div className="col-md-5">
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }} // Animation triggered when element comes into view
@@ -45,7 +45,7 @@ const FormSc = () => {
             </motion.div>
           </div>
 
-          <div className="col-lg-7">
+          <div className="col-md-7">
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }} // Animation triggered when element comes into view

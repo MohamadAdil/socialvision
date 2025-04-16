@@ -81,19 +81,34 @@
     padding: 200px 0 50px;
   }
 
+  .InnerHero {
+    padding-top: 130px;
+  }
+  .InnerHero .row .col-md-6:first-child {
+    margin-bottom: 30px;
+  }
+.FormSc  .row .col-md-5 {
+  margin-bottom: 30px;
+}
+.InnerHeroImg{
+  margin: 0 auto;
+}
   .HeroBanner .heading-wrap h1,
   .OptimizeFormSc h2,
   .WhyUs .heading-wrap h2,
   .OurIndustries h2,
   .OurTestimonials h2,
-  .GrowTogether-wrap h2 {
+  .GrowTogether-wrap h2,
+  .InnerHeroText h1,
+  .ArticleSc h2 {
     font-size: 34px;
   }
 
   .HeroBanner .heading-wrap p,
   .OptimizeFormSc p,
   .WhyUs .heading-wrap p,
-  .GrowTogether-wrap p {
+  .GrowTogether-wrap p,
+  .InnerHeroText p {
     font-size: 16px;
   }
 
@@ -110,7 +125,9 @@
   .WhyUs,
   .OurIndustries,
   .OurTestimonials,
-  .GrowTogether {
+  .GrowTogether,
+  .FormSc,
+  .ArticleSc {
     padding: 60px 0;
   }
 
@@ -155,7 +172,9 @@
   .WhyUs .heading-wrap h2,
   .OurIndustries h2,
   .OurTestimonials h2,
-  .GrowTogether-wrap h2 {
+  .GrowTogether-wrap h2,
+  .InnerHeroText h1,
+  .ArticleSc h2 {
     font-size: 24px;
   }
 
@@ -164,7 +183,8 @@
   .WhyUs .heading-wrap p,
   .GrowTogether-wrap p,
   .whyus-card-item p,
-  .bottom-ft p {
+  .bottom-ft p,
+  .InnerHeroText p {
     font-size: 14px;
   }
 
