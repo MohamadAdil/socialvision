@@ -14,7 +14,7 @@ const OurTestimonials = () => {
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
-      viewport={{ once: true, amount: 0.2 }}
+      viewport={{ once: false, amount: 0.2 }}
     >
       <div className="container">
         <motion.div
@@ -22,7 +22,7 @@ const OurTestimonials = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
         >
           <span className="hd-border-line center">Our Testimonials</span>
           <h2>AI Customer Testimonials</h2>
@@ -33,7 +33,7 @@ const OurTestimonials = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
         >
           <div className="avatars">
             <Image src="/images/testimonials-img/img-1.png" alt="User 1" width={55} height={55} />
@@ -61,7 +61,7 @@ const OurTestimonials = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
         >
           <Testimonials />
         </motion.div>

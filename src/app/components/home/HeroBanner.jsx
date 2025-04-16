@@ -11,14 +11,16 @@ export default function HeroBanner() {
       className="HeroBanner"
       style={{ backgroundImage: 'url(/images/herobanner.png)' }}
       initial={{ opacity: 0, y: 30 }}
-      animate={{ opacity: 1, y: 0 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: false, amount: 0.2 }} // Triggers every time it enters view, adjust 'amount' as needed
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
       <div className="container">
         <motion.div
           className="heading-wrap"
           initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false, amount: 0.2 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <h1>Supercharge Your Brand with AI-Driven Marketing</h1>
@@ -31,7 +33,8 @@ export default function HeroBanner() {
         <motion.div
           className="review-wrap"
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: false, amount: 0.2 }}
           transition={{ duration: 0.6, delay: 0.6 }}
         >
           <div className="ra-star">
@@ -46,7 +49,8 @@ export default function HeroBanner() {
 
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: false, amount: 0.2 }}
           transition={{ duration: 0.6, delay: 0.8 }}
         >
           <BrandSlider />

@@ -10,7 +10,7 @@ const GrowTogether = () => {
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: 'easeOut' }}
-      viewport={{ once: true, amount: 0.3 }}
+      viewport={{ once: false, amount: 0.3 }}
     >
       <div className="container">
         <motion.div
@@ -19,7 +19,7 @@ const GrowTogether = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
         >
           <h2>Let’s Grow Together</h2>
           <p>

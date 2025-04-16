@@ -1068,11 +1068,11 @@ form textarea:focus {
   margin: 0 0 24px;
 }
 
-.ReportCardWrap .ArticleCard {
+.ReportCardWrap >div>div {
   margin-bottom: 20px;
 }
 
-.ReportCardWrap .ArticleCard:last-child {
+.ReportCardWrap >div>div:last-child {
   margin: 0;
 }
 

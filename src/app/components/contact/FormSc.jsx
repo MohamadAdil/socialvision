@@ -1,4 +1,7 @@
+'use client';
+
 import React from 'react';
+import { motion } from 'framer-motion'; // Import motion from framer-motion
 import ContactCard from './ContactCard';
 import ContactForm from '../common/forms/ContactForm';
 import { TiLocation } from "react-icons/ti";
@@ -11,7 +14,13 @@ const FormSc = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-5">
-            <div className='CnCardWrap'>
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }} // Animation triggered when element comes into view
+              transition={{ duration: 0.8, ease: 'easeOut' }}
+              viewport={{ once: false, amount: 0.2 }} // Ensures animation is triggered every time it's in view
+              className='CnCardWrap'
+            >
               <ContactCard
                 imgSrc={<FaPhoneAlt size={20} />}
                 altText="Phone Icon"
@@ -33,10 +42,18 @@ const FormSc = () => {
                 linkText="2nd Floor, F-426, St. Sebastian Road Industrial Area, California, USA"
                 linkHref={null}
               />
-            </div>
+            </motion.div>
           </div>
+
           <div className="col-lg-7">
-            <ContactForm />
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }} // Animation triggered when element comes into view
+              transition={{ duration: 0.8, ease: 'easeOut' }}
+              viewport={{ once: false, amount: 0.2 }} // Ensures animation is triggered every time it's in view
+            >
+              <ContactForm />
+            </motion.div>
           </div>
         </div>
       </div>
