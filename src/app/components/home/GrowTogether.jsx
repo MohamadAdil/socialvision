@@ -27,7 +27,7 @@ const GrowTogether = () => {
             From smarter campaigns to personalized customer experiences, let artificial intelligence
             take your brand to the next level
           </p>
-          <Link href="/contact" className="btn-main">
+          <Link href="/contact-us" className="btn-main">
             Schedule Your Strategy Call
           </Link>
         </motion.div>

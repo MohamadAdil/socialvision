@@ -172,6 +172,10 @@ ol {
   text-align: center;
   color: var(--white);
   margin: 0 0 14px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 .HeroBanner .heading-wrap p {
@@ -180,6 +184,10 @@ ol {
   text-align: center;
   color: var(--white);
   margin: 0 0 34px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 
 .review-wrap {
@@ -244,6 +252,10 @@ ol {
   color: var(--black);
   margin: 0 0 20px;
   text-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 .OptimizeFormSc p {
@@ -253,6 +265,10 @@ ol {
   margin: 0 0 32px;
   text-align: center;
   vertical-align: middle;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 
 /*  */
@@ -340,6 +356,10 @@ form textarea:focus {
   text-align: center;
   text-transform: capitalize;
   margin-bottom: 60px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 .industries-card-item {
@@ -359,6 +379,10 @@ form textarea:focus {
   vertical-align: middle;
   color: #000;
   text-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 .industries-card-img {
@@ -407,6 +431,10 @@ form textarea:focus {
   margin: 0 0 16px;
   color: var(--white);
   text-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 .WhyUs .heading-wrap p {
@@ -414,6 +442,10 @@ form textarea:focus {
   margin: 0;
   color: var(--white);
   text-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 
 .hd-box {
@@ -472,6 +504,10 @@ form textarea:focus {
   text-transform: capitalize;
   color: var(--white);
   margin: 0 0 12px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 .whyus-card-item p {
@@ -481,7 +517,10 @@ form textarea:focus {
   line-height: 1.6;
   letter-spacing: 0%;
   color: #A7ADBE;
-
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 
 /*  */
@@ -503,6 +542,10 @@ form textarea:focus {
   text-align: center;
   color: var(--white);
   margin: 0 0 16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 .GrowTogether-wrap p {
@@ -510,6 +553,10 @@ form textarea:focus {
   text-align: center;
   color: var(--white);
   margin: 0 0 24px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
 }
 
 /* OurTestimonials */
@@ -526,6 +573,10 @@ form textarea:focus {
   text-transform: capitalize;
   letter-spacing: 0;
   margin: 0 0 30px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 .Testimonials-card {
@@ -786,6 +837,10 @@ form textarea:focus {
   text-align: start;
   color: var(--white);
   margin-bottom: 14px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 .InnerHeroText p {
@@ -796,6 +851,10 @@ form textarea:focus {
   letter-spacing: 0%;
   vertical-align: middle;
   color: var(--white);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
 }
 
 .InnerHeroImg {
@@ -820,6 +879,9 @@ form textarea:focus {
 .InnerHeroImg img {
   border-radius: 235px 235px 0 0;
   object-fit: cover;
+  aspect-ratio: 500/550;
+  width: 100%;
+  height: auto;
   position: relative;
   z-index: 1;
 }
@@ -873,7 +935,10 @@ form textarea:focus {
   letter-spacing: -0.85px;
   text-align: start;
   color: #28334D;
-
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
 }
 
 .CnCardText a {
@@ -884,6 +949,10 @@ form textarea:focus {
   letter-spacing: -0.85px;
   text-align: start;
   color: #111111;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 .ArticleSc {
@@ -899,6 +968,10 @@ form textarea:focus {
   text-transform: capitalize;
   color: var(--black);
   margin-bottom: 38px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 .ArticleCardImg {
@@ -926,6 +999,10 @@ form textarea:focus {
   letter-spacing: 0;
   text-transform: capitalize;
   color: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
 }
 
 .ArticleCardCn span {
@@ -941,6 +1018,10 @@ form textarea:focus {
   letter-spacing: 0;
   color: #111111;
   margin: 0 0 8px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 
 .ArticleCardCn p {
@@ -948,6 +1029,10 @@ form textarea:focus {
   letter-spacing: 0;
   color: #666666;
   margin: 0 0 12px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
 }
 
 .ArticleCardCn a {
@@ -982,13 +1067,16 @@ form textarea:focus {
   text-transform: capitalize;
   margin: 0 0 24px;
 }
-.ReportCardWrap .ArticleCard{
+
+.ReportCardWrap .ArticleCard {
   margin-bottom: 20px;
 }
-.ReportCardWrap .ArticleCard:last-child{
+
+.ReportCardWrap .ArticleCard:last-child {
   margin: 0;
 }
 
-.ReportCardWrap .ArticleCardCn span{
-display: none;
+.ReportCardWrap .ArticleCardCn span,
+.ReportCardWrap .ArticleCardCn p {
+  display: none;
 }

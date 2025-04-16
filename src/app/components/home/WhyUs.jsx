@@ -83,7 +83,7 @@ const WhyUs = () => {
           viewport={{ once: true }}
         >
           Not sure what service is right for you?{' '}
-          <Link href="#">Book a free discovery call</Link> and let’s figure it out together.
+          <Link href="/contact-us">Book a free discovery call</Link> and let’s figure it out together.
         </motion.div>
       </div>
     </motion.section>
