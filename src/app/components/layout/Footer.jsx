@@ -58,7 +58,7 @@ export default function Footer() {
                 <div>
                   <h6>Call Us:</h6>
                   <Link href="tel:+447916149542">
-                    +1 873828 7289
+                  +44 79161 49542
                   </Link>
                 </div>
               </div>
