@@ -3,10 +3,13 @@
 import { motion } from 'framer-motion';
 import InnerHero from '../components/common/sections/InnerHero';
 import FormSc from '../components/contact/FormSc';
+import Header from '../components/layout/Header';
+import Footer from '../components/layout/Footer';
 
 export default function ContactUs() {
   return (
     <div>
+      <Header />
       {/* Scroll-triggered animation for InnerHero */}
       <motion.div
         className="contact-page"
@@ -25,6 +28,7 @@ export default function ContactUs() {
 
       {/* FormSc is outside the motion.div */}
       <FormSc />
+      <Footer />
     </div>
   );
 }

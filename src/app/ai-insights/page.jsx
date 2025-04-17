@@ -3,10 +3,13 @@
 import { motion } from 'framer-motion';
 import ArticleSc from "../components/ai-insights/ArticleSc";
 import InnerHero from "../components/common/sections/InnerHero";
+import Header from '../components/layout/Header';
+import Footer from '../components/layout/Footer';
 
 export default function AIInsight() {
   return (
     <div>
+      <Header />
       {/* Scroll-triggered animation for InnerHero */}
       <motion.div
         initial={{ opacity: 0, y: -50 }}
@@ -24,6 +27,7 @@ export default function AIInsight() {
 
       {/* ArticleSc is outside the motion.div */}
       <ArticleSc />
+      <Footer />
     </div>
   );
 }

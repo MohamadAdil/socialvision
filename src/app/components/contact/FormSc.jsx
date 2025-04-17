@@ -25,15 +25,15 @@ const FormSc = () => {
                 imgSrc={<FaPhoneAlt size={20} />}
                 altText="Phone Icon"
                 label="Call Us"
-                linkText="+1-76269 77694"
-                linkHref="tel:+17626977694"
+                linkText="+44 79161 49542"
+                linkHref="tel:+447916149542"
               />
               <ContactCard
                 imgSrc={<IoMdMail size={20} />}
                 altText="Email Icon"
                 label="Email Us"
-                linkText="example12321@gmail.com"
-                linkHref="mailto:example12321@gmail.com"
+                linkText="info@socialvision.tech"
+                linkHref="mailto:info@socialvision.tech"
               />
               <ContactCard
                 imgSrc={<TiLocation size={20} />}

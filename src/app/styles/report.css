@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --black: #000;
+  --white: #fff;
+  --primary-clr: #FFAC33;
+  --primary-linear: linear-gradient(180deg, #FFAC33 0%, #AE6700 100%);
+  --secondary-clr: ;
+  --tertiary-clr: ;
+  --font-family-p1: "Rethink Sans", sans-serif;
+  --font-family-p2: "Manrope", sans-serif;
+}
+
+.ReportSccontainer {
+  max-width: 794px;
+  margin: 0 auto;
+  padding-inline: 15px;
+}
+
+.ReportSlideOne .ReportSlideLogo {
+  margin-bottom: 277px;
+}
+
+.ReportSlideOne {
+  background: center / cover no-repeat;
+  padding: 45px 27px;
+  height: 100vh;
+  min-height: 1080px;
+  position: relative;
+}
+
+.ReportSlideOne::before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 90%;
+  left: 0;
+  top: 5%;
+  background: #BABABA;
+}
+
+.ReportSlideOne::after {
+  content: '';
+  position: absolute;
+  width: 30%;
+  height: 1px;
+  left: 0;
+  bottom: 5%;
+  background: #BABABA;
+}
+
+.ReportSlideText {
+  max-width: 497px;
+}
+
+.ReportSlideOne p {
+  font: 600 24px/1.6 var(--font-family-p2);
+  text-transform: capitalize;
+  color: #666;
+  margin: 0 0 4px;
+}
+
+.ReportSlideOne h4 {
+  font: 600 40.93px/1.2 var(--font-family-p2);
+  color: #FFAC33;
+  margin: 0 0 20px;
+}
+
+.datecard {
+  background: #F8F8F8;
+  box-shadow: 0 0 24px #00000029;
+  border-radius: 10px;
+  padding: 20px 14px;
+  max-width: 345px;
+  position: relative;
+}
+
+.datecard span {
+  font: 500 19.21px/1.2 var(--font-family-p2);
+  text-transform: capitalize;
+  margin: 0 0 8px;
+  color: #111;
+}
+
+.datecard h5 {
+  font: 600 22.71px/1.2 var(--font-family-p2);
+  text-transform: capitalize;
+  color: #A56200;
+  margin: 0;
+}
+
+.datecard img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.ReportSlideTwo {
+  padding: 50px 70px;
+  background: center / cover no-repeat;
+  position: relative;
+}
+
+.ReportSlideTwo .ReportSlideLogo {
+  text-align: center;
+  margin: 0 0 24px;
+}
+
+.ReportSlideTwo h3 {
+  font: 600 26px/1.2 var(--font-family-p2);
+  color: #111;
+  margin: 0 0 17px;
+  text-align: center;
+}
+
+.ReportSlideTwo h3 span {
+  color: #E18900;
+}
+
+.ChartSc {
+  border-radius: 15px;
+  background: #F8F8F8;
+  padding: 30px;
+  margin-bottom: 24px;
+}
+
+.ChartSc .row {
+  align-items: center;
+}
+
+.ChartScText h4 {
+  font: 600 16px/1.2 var(--font-family-p2);
+  color: #111;
+  margin: 0 0 10px;
+}
+
+.ChartScText p {
+  font: 500 12px/1.6 var(--font-family-p2);
+  color: #494949;
+}
+
+.ReportSlideTwo .SocialCardGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.social-card {
+  border-radius: 15px;
+  padding: 20px;
+  background: #f8f8f8;
+}
+
+.social-card-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 14px;
+}
+
+.platform-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.platform-info h4 {
+  font: 600 18px/1.2 var(--font-family-p2);
+  letter-spacing: 0;
+  color: var(--black);
+}
+
+.engagement-label {
+  border-radius: 40px;
+  padding: 9px;
+  font: 600 10px/1 var(--font-family-p2);
+  letter-spacing: 0;
+  text-align: right;
+  color: var(--black);
+  background: #22b6604d;
+}
+
+.social-instagram-card .engagement-label {
+  background: #22b6604d;
+}
+
+.social-facebook-card .engagement-label {
+  background: #f9ebeb;
+}
+
+.social-website-card .engagement-label {
+  background: #f9efeb;
+}
+
+.engagement-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.engagement-stats span {
+  font: 500 10px/1.2 var(--font-family-p2);
+  letter-spacing: 0;
+  color: #282828;
+}
+
+.social-card .progress,
+.social-card .progress-bar {
+  height: 6px;
+  border-radius: 10px;
+}
+
+.social-instagram-card .progress-bar {
+  background: #22b660;
+}
+
+.social-facebook-card .progress-bar {
+  background: #ff6c6c;
+}
+
+.social-website-card .progress-bar {
+  background: #e18900;
+}
+
+.CriticalWarnings {
+  border-left: 3px solid #E18900;
+  background: #FFF3E1;
+  border-radius: 4px;
+  padding: 24px;
+}
+
+.CriticalWarnings h4 {
+  font-family: var(--font-family-p2);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #E18900;
+  margin-bottom: 13px;
+}
+
+.CriticalErrorItem {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding: 18px 0;
+  border-top: 1px solid #5C5C5C;
+}
+
+.CriticalErrorItem:first-child {
+  padding-top: 0;
+  border-top: none;
+}
+
+.CriticalErrorItem:last-child {
+  padding-bottom: 0;
+}
+
+.CriticalContent h6 {
+  font: 500 14px/1.2 var(--font-family-p2);
+  color: #000;
+  margin: 0;
+}
+
+.CriticalContent p {
+  font: 500 10px/1.6 var(--font-family-p2);
+  color: #282828;
+  margin: 0;
+}
+
+.ReportSlideThree {
+  background: center / cover no-repeat;
+  padding: 50px 34px;
+  position: relative;
+}
+
+.ReportSlideThree .ReportSlideLogo {
+  text-align: center;
+  margin: 0 0 24px;
+}
+
+.SocialInsightWrap {
+  padding: 24px 20px;
+  background: #fff;
+  border: 1px solid #d8d8d8;
+  border-radius: 15px;
+  margin-bottom: 24px;
+}
+
+.SocialInsightWrap:last-child {
+  margin: 0;
+}
+
+.SocialInsightWrap .social-platform-insight-wrapper {
+  margin-bottom: 20px;
+}
+
+.social-platform-insight-wrapper {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.platform-insight-details h4 {
+  font: 600 22px/1.2 var(--font-family-p2);
+  color: #000;
+  margin-bottom: 12px;
+}
+
+.platform-insight-details p {
+  font: 500 12px/1.4 var(--font-family-p2);
+  color: #494949;
+}
+
+.SocialInsightWrap .MesBtm {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #d6d6d6;
+}
+
+.MesDtWrap {
+  font: 500 14px/1.6 var(--font-family-p2);
+  color: #111;
+  background: #fbfbfb;
+  border-radius: 12px;
+  padding: 13px 18px;
+}
+
+.SocialInsightWrap .EngWrap {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.stat-card {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #E1E1E1;
+  background: #FBFBFB;
+  border-radius: 6px;
+}
+
+.stat-top {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 18px;
+}
+
+.stat-icon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #22B6601A;
+  /* default */
+}
+
+/* Override icon backgrounds per card type */
+.stat-pagelikes-card .stat-icon {
+  background: #22B6601A;
+}
+
+.stat-engagementrate-card .stat-icon {
+  background: #BA00FD1A;
+}
+
+.stat-frequency-card .stat-icon {
+  background: #F775751A;
+}
+
+.stat-info span {
+  font: 500 10px/1.2 var(--font-family-p2);
+  color: #666;
+  margin-bottom: 3px;
+}
+
+.stat-info h3 {
+  font: 600 20.02px/1.2 var(--font-family-p2);
+  color: #45464E;
+}
+
+.stat-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.stat-change {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+
+.stat-change h4 {
+  font: 500 9.24px/1.2 var(--font-family-p2);
+  color: #FF7D7D;
+}
+
+.icon-stat-chang {
+  width: 10px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #FFDEDE;
+}
+
+.icon-stat-chang svg {
+  fill: #FF7D7D;
+}
+
+.stat-bottom span {
+  font: 500 8px/1.2 var(--font-family-p2);
+  color: #878787;
+}
+
+.ReportSlideFour {
+  background: center / cover no-repeat;
+  padding: 50px 34px;
+  position: relative;
+}
+
+.ReportSlideFour .ReportSlideLogo {
+  text-align: center;
+  margin: 0 0 24px;
+}
+
+.social-insight-entry {
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  border-radius: 15px;
+  padding: 24px 20px;
+  margin-bottom: 24px;
+}
+
+.social-insight-entry:last-child {
+  margin: 0;
+}
+
+.ai-recommendations {
+  border-radius: 4px;
+  background: #F5FFF9;
+  border-left: 3px solid #22B660;
+  padding: 24px 20px;
+  margin-top: 24px;
+}
+
+.ai-rec-item {
+  padding: 18px 0;
+  border-top: 1px solid #5C5C5C
+}
+
+.ai-rec-item:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.ai-rec-item:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.ai-rec-item p {
+  font-family: var(--font-family-p2);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0%;
+  color: #111111;
+}
+
+.social-airecommendations-card .insight-item,
+.social-competitorcomparison-card .platform-logo-container,
+.social-competitorcomparison-card .insight-item {
+  display: none !important;
+}

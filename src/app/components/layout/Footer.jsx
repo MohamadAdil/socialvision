@@ -57,7 +57,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <h6>Call Us:</h6>
-                  <Link href="tel:+18738287289">
+                  <Link href="tel:+447916149542">
                     +1 873828 7289
                   </Link>
                 </div>
@@ -69,8 +69,8 @@ export default function Footer() {
                 </div>
                 <div>
                   <h6>Email Us:</h6>
-                  <Link href="mailto:example123@gmail.com">
-                    example123@gmail.com
+                  <Link href="mailto:info@socialvision.tech">
+                    info@socialvision.tech
                   </Link>
                 </div>
               </div>
