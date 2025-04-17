@@ -1,4 +1,8 @@
 import InnerHero from "../components/common/sections/InnerHero";
+import GrowTogether from "../components/home/GrowTogether";
+import OurTestimonials from "../components/home/OurTestimonials";
+import WhyUs from "../components/home/WhyUs";
+import SectionSc from "../components/services/SectionSc";
 
 export default function Services() {
   return (
@@ -9,6 +13,10 @@ export default function Services() {
         imageSrc="/images/services-img/hero-img.png"
         imageAlt="AI Technology"
       />
+      <SectionSc/>
+      <WhyUs />
+      <OurTestimonials />
+      <GrowTogether />
     </div>
   );
 }
